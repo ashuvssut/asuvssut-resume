@@ -12,7 +12,7 @@ page {
         height: 125px;
         text-align: center;
         .last-updated {
-            font-family: Raleway;
+            font-family: 'Raleway', sans-serif;
             color: #949494;
             font-size: 10px;
             padding: 13px 30px 0px;
@@ -30,7 +30,7 @@ page {
             }
         }
         p {
-            font-family: Raleway;
+            font-family: 'Raleway', sans-serif;
             font-weight: 600;
             font-size: 14px;
             line-height: 0;
@@ -53,7 +53,7 @@ page {
         .column {
             .frag {
                 h2 {
-                    font-family: raleway;
+                    font-family: 'Raleway', sans-serif;
                     font-weight: 200;
                     color: #797979;
                     margin-top: 15px;
@@ -62,18 +62,18 @@ page {
                     font-weight: 400;
                     color: #333;
                     font-size: 13px;
-                    margin-top: 5px;
-                    margin-bottom: 3px;
+                    margin: 8px 0 3px;
                     text-shadow: 0 0 1px rgba(0,0,0,0.4);
+                    line-height: 1.13;
                 }
                 h4 {
                     color: #333;
-                    font-family: lato;
+                    font-family: 'Lato', sans-serif;
                     font-size: 12px;
                     font-size-adjust: 0.5;
                     font-weight: 500;
                     font-variant-caps: small-caps;
-                    margin-top: 2px;
+                    margin: 3px 0;
                     text-shadow: 0 0 1px rgba(0,0,0,0.3);
                     a{
                         color: inherit;
@@ -82,7 +82,7 @@ page {
                 .highlight {
                     color: #8c8c8c;
                     font-weight: 600;
-                    font-family: raleway;
+                    font-family: 'Raleway', sans-serif;
                     font-size: 11.5px;
                 }
                 //////////////////////////////////////////
@@ -131,14 +131,14 @@ page {
                         }
                         span {
                             font-weight: 400;
-                            color: #959595;
+                            color: #756565;
                         }
                     }
                 }
             }
         }
         .first-column{
-            width: 280px;
+            width: 290px;
             padding-right: 40px;
 
         }
