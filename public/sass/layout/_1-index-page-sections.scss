@@ -1,20 +1,175 @@
-body {
-    background: rgb(204, 204, 204);
-    page[size="A4"] {
-        width: 21cm;
-        height: 29.7cm;
-    }
-    page {
-        background: white;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 0.5cm;
-        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-        header {
-            text-align: center;
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    header {
+        height: 125px;
+        text-align: center;
+        .last-updated {
+            font-family: Raleway;
+            color: #949494;
+            font-size: 10px;
+            padding: 13px 30px 0px;
+            text-align: right;
+            font-weight: 600;
         }
-        section {
-        }     
+        h1 {
+            font-size: 46px;
+            margin: 0;
+            font-weight: 100;
+            color: #858585;
+            line-height: 1.1;
+            span {
+                font-weight: 300;
+            }
+        }
+        p {
+            font-family: Raleway;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 0;
+            color: #797979;
+            padding: 9px;
+            text-shadow: 0 0 1px rgba(0,0,0,0.15);
+            a {
+                text-decoration: none;
+                color: #797979;
+            }
+        }
     }
-    
+    hr {
+        color: #c6c6c6;;
+    }
+    section{
+        display: flex;
+        padding: 35px;
+        padding-top: 20px;
+        .column {
+            .frag {
+                h2 {
+                    font-family: raleway;
+                    font-weight: 200;
+                    color: #797979;
+                    margin-top: 15px;
+                }
+                h3 {
+                    font-weight: 400;
+                    color: #333;
+                    font-size: 13px;
+                    margin-top: 5px;
+                    margin-bottom: 3px;
+                    text-shadow: 0 0 1px rgba(0,0,0,0.4);
+                }
+                h4 {
+                    color: #333;
+                    font-family: lato;
+                    font-size: 12px;
+                    font-size-adjust: 0.5;
+                    font-weight: 500;
+                    font-variant-caps: small-caps;
+                    margin-top: 2px;
+                    text-shadow: 0 0 1px rgba(0,0,0,0.3);
+                    a{
+                        color: inherit;
+                    }
+                }
+                .highlight {
+                    color: #8c8c8c;
+                    font-weight: 600;
+                    font-family: raleway;
+                    font-size: 11.5px;
+                }
+                //////////////////////////////////////////
+                p {
+                    color: #9c9c9c;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 1.3;
+                    a {
+                        font-weight: 400;
+                        color: #626262;
+                        text-decoration: none;
+                    }
+                }
+                .tags {
+                    margin-left: 20px;
+                    .tag-group {
+                        .tag {
+                            display: inline-block;
+                            & + .tag {
+                                margin-left: 21px;
+                                position: relative;
+                                &::before {
+                                    content: "\2022";
+                                    color: #737373;
+                                    display: block;
+                                    position: absolute;
+                                    bottom: -2px;
+                                    left: -15px;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                    .list-item{
+                        position: relative;
+                        margin-bottom: 3px;
+                        &::before {
+                            content: "\2022";
+                            color: #737373;
+                            display: block;
+                            position: absolute;
+                            top: -2px;
+                            left: -15px;
+                            font-size: 16px;
+                        }
+                        span {
+                            font-weight: 400;
+                            color: #959595;
+                        }
+                    }
+                }
+            }
+        }
+        .first-column{
+            width: 280px;
+            padding-right: 40px;
+
+        }
+        .second-column, .column{
+            .frag{
+                .project{
+                    margin-top: 5px;
+                    &:nth-of-type(n+2){
+                        margin-top: 10px;
+                    }
+                    h3,h4{
+                        display: inline-block;
+                        margin: 5px 5px 3px;
+                    }
+                    h3{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.link{
+    line-height: 1.5 !important;
+    a {
+        text-decoration: none !important;
+        color: #8c8c8c !important;
+        font-weight: 400;
+        text-shadow: 0 0 1px rgba(0,0,0,0.15) !important;
+        &:hover{
+            text-shadow: 0 0 1px rgba(0,0,0,0.4) !important;
+        }
+    }
 }
