@@ -407,7 +407,7 @@ page section .column .frag .tags .list-item span {
 }
 
 page section .first-column {
-  width: 290px;
+  width: 305px;
   padding-right: 40px;
 }
 
@@ -434,7 +434,7 @@ page section .second-column .frag .project h3, page section .column .frag .proje
 
 .link a {
   text-decoration: none !important;
-  color: #8c8c8c !important;
+  color: #575050 !important;
   font-weight: 400;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15) !important;
 }
