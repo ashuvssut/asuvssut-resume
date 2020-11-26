@@ -298,7 +298,6 @@ page header p {
 }
 
 page header p a {
-  text-decoration: none;
   color: #797979;
 }
 
@@ -360,7 +359,6 @@ page section .column .frag p {
 page section .column .frag p a {
   font-weight: 400;
   color: #626262;
-  text-decoration: none;
 }
 
 page section .column .frag .tags {
@@ -433,7 +431,6 @@ page section .second-column .frag .project h3, page section .column .frag .proje
 }
 
 .link a {
-  text-decoration: none !important;
   color: #575050 !important;
   font-weight: 400;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15) !important;
