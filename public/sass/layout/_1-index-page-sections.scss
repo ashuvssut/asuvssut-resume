@@ -117,7 +117,7 @@ page {
                             }
                         }
                     }
-                    .list-item {
+                    .list-item, .bullets{
                         position: relative;
                         margin-bottom: 3px;
                         &::before {
@@ -132,6 +132,15 @@ page {
                         span {
                             font-weight: 400;
                             color: #756565;
+                        }
+                    }
+                    .bullets{
+                        margin-left: 30px;
+                        &::before {
+                            content: "➤";
+                            font-size: 10px;
+                            top: 2px;
+                            left: -20px;
                         }
                     }
                 }

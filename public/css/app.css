@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -384,12 +385,12 @@ page section .column .frag .tags .tag-group .tag + .tag::before {
   font-size: 16px;
 }
 
-page section .column .frag .tags .list-item {
+page section .column .frag .tags .list-item, page section .column .frag .tags .bullets {
   position: relative;
   margin-bottom: 3px;
 }
 
-page section .column .frag .tags .list-item::before {
+page section .column .frag .tags .list-item::before, page section .column .frag .tags .bullets::before {
   content: "\2022";
   color: #737373;
   display: block;
@@ -399,9 +400,20 @@ page section .column .frag .tags .list-item::before {
   font-size: 16px;
 }
 
-page section .column .frag .tags .list-item span {
+page section .column .frag .tags .list-item span, page section .column .frag .tags .bullets span {
   font-weight: 400;
   color: #756565;
+}
+
+page section .column .frag .tags .bullets {
+  margin-left: 30px;
+}
+
+page section .column .frag .tags .bullets::before {
+  content: "➤";
+  font-size: 10px;
+  top: 2px;
+  left: -20px;
 }
 
 page section .first-column {
