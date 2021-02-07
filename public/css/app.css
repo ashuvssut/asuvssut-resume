@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -267,7 +268,7 @@ page header {
 }
 
 page header .last-updated {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #949494;
   font-size: 10px;
   padding: 13px 30px 0px;
@@ -288,7 +289,7 @@ page header h1 span {
 }
 
 page header p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 0;
@@ -298,7 +299,6 @@ page header p {
 }
 
 page header p a {
-  text-decoration: none;
   color: #797979;
 }
 
@@ -309,11 +309,11 @@ page hr {
 page section {
   display: flex;
   padding: 35px;
-  padding-top: 20px;
+  padding-top: 8px;
 }
 
 page section .column .frag h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 200;
   color: #797979;
   margin-top: 15px;
@@ -330,7 +330,7 @@ page section .column .frag h3 {
 
 page section .column .frag h4 {
   color: #333;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   font-size-adjust: 0.5;
   font-weight: 500;
@@ -346,7 +346,7 @@ page section .column .frag h4 a {
 page section .column .frag .highlight {
   color: #8c8c8c;
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11.5px;
 }
 
@@ -360,7 +360,6 @@ page section .column .frag p {
 page section .column .frag p a {
   font-weight: 400;
   color: #626262;
-  text-decoration: none;
 }
 
 page section .column .frag .tags {
@@ -386,12 +385,12 @@ page section .column .frag .tags .tag-group .tag + .tag::before {
   font-size: 16px;
 }
 
-page section .column .frag .tags .list-item {
+page section .column .frag .tags .list-item, page section .column .frag .tags .bullets {
   position: relative;
   margin-bottom: 3px;
 }
 
-page section .column .frag .tags .list-item::before {
+page section .column .frag .tags .list-item::before, page section .column .frag .tags .bullets::before {
   content: "\2022";
   color: #737373;
   display: block;
@@ -401,9 +400,20 @@ page section .column .frag .tags .list-item::before {
   font-size: 16px;
 }
 
-page section .column .frag .tags .list-item span {
+page section .column .frag .tags .list-item span, page section .column .frag .tags .bullets span {
   font-weight: 400;
   color: #756565;
+}
+
+page section .column .frag .tags .bullets {
+  margin-left: 30px;
+}
+
+page section .column .frag .tags .bullets::before {
+  content: "➤";
+  font-size: 10px;
+  top: 2px;
+  left: -20px;
 }
 
 page section .first-column {
@@ -411,20 +421,47 @@ page section .first-column {
   padding-right: 40px;
 }
 
-page section .second-column .frag .project, page section .column .frag .project {
+page section .first-column .list {
+  font-variant: common-ligatures;
+  margin-left: 21px;
+  position: relative;
+  margin-bottom: 3px;
+}
+
+page section .first-column .list .list-item {
+  position: relative;
+}
+
+page section .first-column .list .list-item::before {
+  content: "\2022";
+  color: #737373;
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -15px;
+  font-size: 16px;
+}
+
+page section .second-column .frag .project,
+page section .column .frag .project {
   margin-top: 5px;
 }
 
-page section .second-column .frag .project:nth-of-type(n+2), page section .column .frag .project:nth-of-type(n+2) {
+page section .second-column .frag .project:nth-of-type(n + 2),
+page section .column .frag .project:nth-of-type(n + 2) {
   margin-top: 10px;
 }
 
-page section .second-column .frag .project h3, page section .second-column .frag .project h4, page section .column .frag .project h3, page section .column .frag .project h4 {
+page section .second-column .frag .project h3,
+page section .second-column .frag .project h4,
+page section .column .frag .project h3,
+page section .column .frag .project h4 {
   display: inline-block;
   margin: 5px 5px 3px;
 }
 
-page section .second-column .frag .project h3, page section .column .frag .project h3 {
+page section .second-column .frag .project h3,
+page section .column .frag .project h3 {
   margin-left: 0;
 }
 
@@ -433,7 +470,6 @@ page section .second-column .frag .project h3, page section .column .frag .proje
 }
 
 .link a {
-  text-decoration: none !important;
   color: #575050 !important;
   font-weight: 400;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15) !important;
