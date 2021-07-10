@@ -1,6 +1,6 @@
 const data = {
   home: {
-    title: "Ashutosh Khanduala, Resume",
+    title: "Ashutosh Khanduala | Resume",
     description: "Ashutosh Khanduala's Resume!",
     keywords: "Ashutosh Khanduala, Resume",
   },
