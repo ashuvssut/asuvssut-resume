@@ -3,7 +3,6 @@ import MetaComponent from "../../seo/MetaComponent";
 import metaData from "../../seo/metaData";
 
 import Banner from "./sections/Banner/Banner";
-import Team from "./sections/Team/Team";
 
 import style from "./home.module.scss";
 
@@ -16,7 +15,6 @@ function Home() {
         keywords={metaData.home.keywords}
       />
       <Banner />
-      <Team />
     </div>
   );
 }

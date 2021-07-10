@@ -1,5 +1,24 @@
 @use './../../scss/colors';
 
+$height: 50px;
+
+.spacer {
+  height: $height;
+}
+
 .header {
-  background-color: colors.$purple;
+  background-color: colors.$backgroundSecondary;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 30px;
+  gap: 15px;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $height;
 }

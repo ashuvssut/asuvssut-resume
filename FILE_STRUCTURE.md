@@ -1,13 +1,13 @@
-# CSwala Website File Structure
+# Resume Website File Structure
 
 ```
-CSwala-website/
+Resume-website/
 |
 |- public # Contains the favicon, etc. Any files within this directory will not be processed by Webpack but copied directly to the build folder.
 |- src: # Contains all source code for the React application.
     |
     |- App.js
-    |- index.scss
+    |- index.css
     |- index.js
     |- assets   # Contains all the community brand assets. Keep all images, clips, etc here only
     |- components/   # Contains all the GLOBAL components used by "more than one" page. (includes Header, footer,etc.)
@@ -15,35 +15,24 @@ CSwala-website/
     |-pages/         # Contains all the sections of the page.
     |      |-----Home /
     |      |      |- Home.jsx    # has sections as components
-    |      |      |- home.module.scss
+    |      |      |- home.module.css
     |      |      |- components/ # this components folder has components that is used by multiple sections of the same page (Home page)
     |      |      |     |-component1Name/
     |      |      |     |    |- Component1Name.jsx (in PascalCase)
-    |      |      |     |    |- component1-name.module.scss (in kebab-case)
+    |      |      |     |    |- component1-name.module.css (in kebab-case)
     |      |      |     |
     |      |      |     |-component2Name/
     |      |      |         |- Component2Name.jsx
-    |      |      |         |- component2-name.module.scss
+    |      |      |         |- component2-name.module.css
     |      |      |
     |      |      |- sections/ # contains all sections of the page
     |      |            |
     |      |            |----Banner/  # section1 of the page
     |      |            |        |- Banner.jsx
-    |      |            |        |- banner.module.scss          
-    |      |            |        
-    |      |            |                          
-    |      |            |------Team/ 
-    |      |                     |- Team.jsx
-    |      |                     |- team.module.scss
-    |      |                     |- components/ # this components folder has components that is used by this section only
-    |      |                          |
-    |      |                          |-component1Name/
-    |      |                               |- Component1Name.jsx 
-    |      |                               |- component1-name.module.scss
+    |      |            |        |- banner.module.css          
     |      |            
     |      |            
     |      |
-    |      |- Contact us/
     |      |- 404/
     |
     |

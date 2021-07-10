@@ -1,18 +1,13 @@
 const data = {
   home: {
-    title: "CSwala",
-    description: "An organization to Educate people about the right style of getting educated!",
-    keywords: "CSwala, home, student, education",
+    title: "Ashutosh Khanduala, Resume",
+    description: "Ashutosh Khanduala's Resume!",
+    keywords: "Ashutosh Khanduala, Resume",
   },
   notFound: {
-    title: "CSwala - 404",
+    title: "404",
     description: "Uh ohh Looks like you encountered a 404 Not Found error.",
-    keywords: "CSwala, 404",
-  },
-  contact: {
-    title: "CSwala - Contact us",
-    description: "Contact and get in touch with us.",
-    keywords: "CSwala, contact, contact us",
+    keywords: "Ashutosh Khanduala, Resume, 404",
   },
 };
 
