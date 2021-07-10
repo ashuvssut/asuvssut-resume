@@ -1,36 +1,23 @@
-public/sass/base/_fonts.scss
-public/fonts/Lato/Lato-Black.ttf
-public/fonts/Lato/Lato-BlackItalic.ttf
-public/fonts/Lato/Lato-Bold.ttf
-public/fonts/Lato/Lato-BoldItalic.ttf
-public/fonts/Lato/Lato-Italic.ttf
-public/fonts/Lato/Lato-Light.ttf
-public/fonts/Lato/Lato-LightItalic.ttf
-public/fonts/Lato/Lato-Regular.ttf
-public/fonts/Lato/Lato-Thin.ttf
-public/fonts/Lato/Lato-ThinItalic.ttf
-public/fonts/Lato/OFL.txt
-public/fonts/Raleway/OFL.txt
-public/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf
-public/fonts/Raleway/Raleway-VariableFont_wght.ttf
-public/fonts/Raleway/README.txt
-public/fonts/Raleway/static/Raleway-Black.ttf
-public/fonts/Raleway/static/Raleway-BlackItalic.ttf
-public/fonts/Raleway/static/Raleway-Bold.ttf
-public/fonts/Raleway/static/Raleway-BoldItalic.ttf
-public/fonts/Raleway/static/Raleway-ExtraBold.ttf
-public/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf
-public/fonts/Raleway/static/Raleway-ExtraLight.ttf
-public/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf
-public/fonts/Raleway/static/Raleway-Italic.ttf
-public/fonts/Raleway/static/Raleway-Light.ttf
-public/fonts/Raleway/static/Raleway-LightItalic.ttf
-public/fonts/Raleway/static/Raleway-Medium.ttf
-public/fonts/Raleway/static/Raleway-MediumItalic.ttf
-public/fonts/Raleway/static/Raleway-Regular.ttf
-public/fonts/Raleway/static/Raleway-SemiBold.ttf
-public/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf
-public/fonts/Raleway/static/Raleway-Thin.ttf
-public/fonts/Raleway/static/Raleway-ThinItalic.ttf
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-ashuvssut-resume-preview.pdf
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
