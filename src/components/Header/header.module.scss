@@ -1,6 +1,6 @@
-@use './../../scss/colors';
+@use './../../scss/_colors.module.scss';
 
-$height: 60px;
+$height: 75px;
 
 .spacer {
 	height: $height;
@@ -11,6 +11,7 @@ $height: 60px;
 	font-family: "Roboto Mono", monospace;
 	font-weight: 600;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 15px 15px 30px;
@@ -21,16 +22,22 @@ $height: 60px;
 	left: 0;
 	right: 0;
 	height: $height;
-
-	.downloadButton {
+	z-index: 999;
+	.right{
+		display: flex;
+		gap: 5px;
+	}
+	.button {
 		border: 2px colors.$white solid;
 		cursor: pointer;
 		color: colors.$white;
 		padding: 10px 15px;
 		border-radius: 100px;
-		min-width: 95px;
+		min-width: 50px;
 		transform: translateX(-10px);
 		display: flex;
+		justify-content: space-around;
+		align-items: center;
     gap: 8px;
 		&::after {
 			display: none;

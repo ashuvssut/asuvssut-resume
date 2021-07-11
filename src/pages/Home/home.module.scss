@@ -1,4 +1,13 @@
-@use './../../scss/colors';
-.root{
-  color: colors.$black;
+@use './../../scss/_colors.module.scss';
+
+.root {
+	padding: 25px 10px;
+
+	.pageWrap {
+		margin-bottom: 0.5cm;
+		box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+		max-width: 21cm;
+		max-height: 29.7cm;
+		margin: 0 auto;
+	}
 }

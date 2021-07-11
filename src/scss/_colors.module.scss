@@ -1,0 +1,21 @@
+$buttontransparent: #ffffff0d;
+$textprimary: #f0f0f0;
+$backgroundLight: #535658;
+$backgroundSecondary: #323639;
+
+$white-light-tint: rgba(255, 255, 255, 0.3);
+$white-thick-tint: rgba(255, 255, 255, 0.9);
+
+$black-light-tint: rgba(0, 0, 0, 0.302);
+$black-thick-tint: rgba(0, 0, 0, 0.871);
+
+$black: #000;
+$white: #fff;
+$prussian-blue: #003153;
+$grey: #797979;
+
+:export {
+	black: $black;
+	white: $white;
+	grey: $grey;
+}
