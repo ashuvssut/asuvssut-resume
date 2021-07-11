@@ -11,16 +11,16 @@ const Home = lazy(() => import("./pages/Home/Home"));
 
 function App({ location }) {
   return (
-    <Suspense fallback={<Preloader />}>
-      {location.pathname !== "/404" && <Header />}
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/404" exact component={NotFound} />
-        <Redirect to="/404" />
-      </Switch>
-      {/* {location.pathname !== "/404" && <Footer />} */}
-    </Suspense>
-  );
+		<Suspense fallback={<Preloader />}>
+			{location.pathname !== "/404" && <Header />}
+			<Switch>
+				<Route path="/ashuvssut-resume" exact component={Home} />
+				<Route path="/ashuvssut-resume/404" exact component={NotFound} />
+				<Redirect to="/ashuvssut-resume/404" />
+			</Switch>
+			{/* {location.pathname !== "/404" && <Footer />} */}
+		</Suspense>
+	);
 }
 
 export default withRouter(App);

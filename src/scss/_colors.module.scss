@@ -12,10 +12,17 @@ $black-thick-tint: rgba(0, 0, 0, 0.871);
 $black: #000;
 $white: #fff;
 $prussian-blue: #003153;
+$light-grey: #a5a5a5;
+$grey52: #626272;
 $grey: #797979;
+$dark-grey: #333;
 
 :export {
 	black: $black;
 	white: $white;
+	lightGrey: $light-grey;
+	grey52: $grey52;
 	grey: $grey;
+	darkGrey: $dark-grey;
+
 }
