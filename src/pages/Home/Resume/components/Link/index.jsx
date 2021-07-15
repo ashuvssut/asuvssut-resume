@@ -15,14 +15,16 @@ export function Link1({ children, href, variant }) {
 	);
 }
 
-export function Link2({ children, href, prefix, suffix }) {
+export function Link2({ children, href, prefix, suffix, removeSpace = false}) {
 	return (
 		<p style={ss.root}>
-			{prefix !== undefined && `${prefix} `}
+			{prefix !== undefined && prefix }
+			{removeSpace === false && " "}
 			<a style={ss.a} target="_blank" rel="noopener noreferrer" href={href}>
 				{children}
 			</a>
-			{suffix !== undefined && ` ${suffix}`}
+			{removeSpace === false && " "}
+			{suffix !== undefined && suffix}
 		</p>
 	);
 }

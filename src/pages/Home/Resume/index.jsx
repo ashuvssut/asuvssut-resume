@@ -41,18 +41,20 @@ function Resume() {
 					</Section>
 
 					<Section title="links">
-						<Link2 prefix="GitHub://" href="https://github.com/ashuvssut">
+						<Link2 prefix="GitHub://" href="https://github.com/ashuvssut" removeSpace={true}>
 							ashuvssut
 						</Link2>
 						<Link2
 							prefix="LinkedIn://"
 							href="https://www.linkedin.com/in/ashutosh-khanduala-4b586b105/"
+							removeSpace={true}
 						>
 							ashutosh-khanduala
 						</Link2>
 						<Link2
 							prefix="StackOverflow://"
 							href="https://stackoverflow.com/users/12872199/ashutosh-khanduala?tab=reputation"
+							removeSpace={true}
 						>
 							ashuvssut
 						</Link2>
