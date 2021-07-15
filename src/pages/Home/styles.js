@@ -1,5 +1,15 @@
 export const stylesheet = {
+	htmlBody: {
+		minWidth: "21cm",
+		minHeight: "29.7cm",
+		maxWidth: "21cm",
+		maxHeight: "29.7cm",
+		padding: 0,
+		margin: 0,
+	},
 	page: {
+		minWidth: "21cm",
+		minHeight: "29.7cm",
 		maxWidth: "21cm",
 		maxHeight: "29.7cm",
 		background: "white",

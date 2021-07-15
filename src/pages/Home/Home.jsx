@@ -15,11 +15,25 @@ function Home() {
 				keywords={metaData.home.keywords}
 			/>
 			<div className={styles.pageWrap}>
-				<div style={ss.page}>
-					<div style={ss.content}>
-						<Resume />
-					</div>
-				</div>
+				<html>
+					<head>
+						<link
+							href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,800;1,200&display=swap"
+							rel="stylesheet"
+						/>
+						<link
+							href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+							rel="stylesheet"
+						/>
+					</head>
+					<body style={ss.htmlBody}>
+						<div style={ss.page}>
+							<div style={ss.content}>
+								<Resume />
+							</div>
+						</div>
+					</body>
+				</html>
 			</div>
 		</div>
 	);

@@ -143,7 +143,7 @@ function Resume() {
 								<Li1>
 									Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
 									<span style={ss.spot}>CodeChef VSSUT chapter</span> and
-									<span style={ss.spot}>Enigma VSSUT</span>.
+									<span style={ss.spot}> Enigma VSSUT</span>.
 								</Li1>
 							</List>
 						</div>
