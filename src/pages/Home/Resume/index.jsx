@@ -15,15 +15,15 @@ function Resume() {
 				<h1 style={ss.firstName}>
 					Ashutosh <span style={ss.lastName}>Khanduala</span>
 				</h1>
-				<p style={ss.line}>
+				<div style={ss.line}>
 					<Link1 href="https://ashuvssut.github.io/my-portfolio/">
 						ashuvssut.github.io/my-portfolio/
 					</Link1>
-				</p>
-				<p style={ss.line}>
+				</div>
+				<div style={ss.line}>
 					<Link1 href="mailto:ashu.khanduala@gmail.com">ashu.khanduala@gmail.com</Link1> | +91 8114
 					727 882
-				</p>
+				</div>
 			</header>
 
 			<hr />

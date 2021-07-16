@@ -2,24 +2,24 @@ import React from "react";
 import { stylesheet as ss } from "./styles";
 
 export function List({ children }) {
-	return <div style={ss.list}>{children}</div>;
+	return <ul style={ss.list}>{children}</ul>;
 }
 
 export function Li1({ children }) {
 	return (
-		<p style={ss.li}>
+		<li style={ss.li}>
 			<span style={ss.bullet1}>&#8226;</span>
 			{children}
-		</p>
+		</li>
 	);
 }
 
 export function Li2({ children }) {
 	return (
-		<p style={ss.li}>
+		<li style={ss.li}>
 			<span style={ss.bullet2}>&#10148;</span>
 			{children}
-		</p>
+		</li>
 	);
 }
 

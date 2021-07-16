@@ -9,7 +9,7 @@ export const stylesheet = {
 	},
 	a: {
 		color: "inherit",
-		fontWeight: "inherit",
+		fontWeight: "normal",
 		fontFamily: '"Lato", sans-serif',
 	},
 };

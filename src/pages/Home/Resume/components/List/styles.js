@@ -14,6 +14,7 @@ export const stylesheet = {
 		fontSize: 13,
 		lineHeight: 1.3,
 		position: "relative",
+		listStyle: "none",
 	},
 	liPara: {},
 	bullet1: {

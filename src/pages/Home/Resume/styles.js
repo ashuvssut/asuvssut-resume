@@ -18,9 +18,7 @@ export const stylesheet = {
 		fontFamily: '"Raleway", sans-serif',
 		fontWeight: 600,
 		fontSize: "14px",
-		lineHeight: 0,
 		color: colors.grey,
-		padding: "9px",
 		textShadow: "0 0 1px rgba(0, 0, 0, 0.15)",
 	},
 
@@ -30,8 +28,8 @@ export const stylesheet = {
 		paddingTop: 8,
 	},
 	firstCol: {
-		minWidth: 314,
-		maxWidth: 314,
+		minWidth: 290,
+		maxWidth: 290,
 		paddingRight: 17,
 	},
 	card: {

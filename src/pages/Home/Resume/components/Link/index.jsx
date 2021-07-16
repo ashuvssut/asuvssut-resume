@@ -5,7 +5,7 @@ import { stylesheet as ss } from "./styles";
 export function Link1({ children, href, variant }) {
 	return (
 		<a
-			style={{ ...ss.a, fontSize: variant === "small" && 13 }}
+			style={{ ...ss.a, fontSize: variant === "small" && 13, opacity: variant === "small" && 0.7 }}
 			target="_blank"
 			rel="noopener noreferrer"
 			href={href}
@@ -15,10 +15,10 @@ export function Link1({ children, href, variant }) {
 	);
 }
 
-export function Link2({ children, href, prefix, suffix, removeSpace = false}) {
+export function Link2({ children, href, prefix, suffix, removeSpace = false }) {
 	return (
 		<p style={ss.root}>
-			{prefix !== undefined && prefix }
+			{prefix !== undefined && prefix}
 			{removeSpace === false && " "}
 			<a style={ss.a} target="_blank" rel="noopener noreferrer" href={href}>
 				{children}
