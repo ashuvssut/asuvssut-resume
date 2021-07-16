@@ -1,11 +1,11 @@
 import React from "react";
 
-import {stylesheet as ss} from './styles'
+import { stylesheet as ss } from "./styles";
 
-function Section({ title, children }) {
+function Section({ title, noMarginTop, children }) {
 	return (
 		<div style={ss.section}>
-      <h2 style={ss.title}>{title}</h2>
+			<h2 style={noMarginTop ? { ...ss.title, marginTop: 0 } : ss.title}>{title}</h2>
 			{children}
 		</div>
 	);

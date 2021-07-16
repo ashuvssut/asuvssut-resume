@@ -30,7 +30,7 @@ function Resume() {
 
 			<section style={ss.main}>
 				<div style={ss.firstCol}>
-					<Section title="education">
+					<Section title="education" noMarginTop={true}>
 						<H1>veer surendra sai university of technology</H1>
 						<H2>B.tech second year in Electronics and Comm. Engg | 2019-2023</H2>
 						<SubTitle1>Burla, Odisha, India</SubTitle1>
@@ -144,7 +144,7 @@ function Resume() {
 								</Li1>
 								<Li1>
 									Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
-									<span style={ss.spot}>CodeChef VSSUT chapter</span> and
+									<span style={ss.spot}> CodeChef VSSUT chapter</span> and
 									<span style={ss.spot}> Enigma VSSUT</span>.
 								</Li1>
 							</List>

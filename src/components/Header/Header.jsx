@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./header.module.scss";
 import akAvatar from "./../../assets/header/ak.jfif";
 import {
@@ -8,6 +8,7 @@ import {
 import { Avatar, makeStyles } from "@material-ui/core";
 
 function Header() {
+	const [loading, setLoading] = useState(false);
 	const useStyles = makeStyles(theme => ({
 		header: {
 			[theme.breakpoints.down("xs")]: {
@@ -40,6 +41,7 @@ function Header() {
 	}
 
 	const generatePdf = async () => {
+		setLoading(true);
 		const resumeHTML = document.getElementById("resume-wrap").innerHTML;
 		const data = { html: resumeHTML };
 		// console.log(data);
@@ -54,7 +56,8 @@ function Header() {
 		try {
 			const response = await fetch("https://html2pdf-ashuvssut.herokuapp.com/generatePdf", options);
 			const responseMessage = await response.json();
-
+			setLoading(false)
+			console.log(responseMessage)
 			const pdfBuffer = responseMessage.pdfBuffer.data;
 			const base64String = _arrayBufferToBase64(pdfBuffer);
 
@@ -76,10 +79,17 @@ function Header() {
 					<Avatar alt="ashuvssut" src={akAvatar} className={classes.avatar} />
 				</div>
 				<div className={styles.right}>
-					<div className={styles.button} onClick={generatePdf}>
-						Download
-						<PictureAsPdf fontSize="small" />
-					</div>
+					{!loading ? (
+						<div className={styles.button} onClick={generatePdf}>
+							Download
+							<PictureAsPdf fontSize="small" />
+						</div>
+					) : (
+						<div className={styles.button}>
+							Generating...
+							{/* <PictureAsPdf fontSize="small" /> */}
+						</div>
+					)}
 					{/* <div className={styles.button}>
 						<Link fontSize="small" />
 						Copy Download link
