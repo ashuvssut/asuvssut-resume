@@ -52,9 +52,9 @@ function Header() {
 		};
 
 		try {
-			const response = await fetch("http://localhost:1337/generatePdf", options);
+			const response = await fetch("https://html2pdf-ashuvssut.herokuapp.com/generatePdf", options);
 			const responseMessage = await response.json();
-			
+
 			const pdfBuffer = responseMessage.pdfBuffer.data;
 			const base64String = _arrayBufferToBase64(pdfBuffer);
 
