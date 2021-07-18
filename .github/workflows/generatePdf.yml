@@ -10,22 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
       - name: Use Node.js 14.x
         uses: actions/setup-node@v2
         with:
           node-version: 14.x
-
-      - name: Install missing linux Deps
+      - name: Install missing Deps
         run: sudo apt install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
-
+      
       - run: npm init -y
+      - name: Install dependencies
+        run: npm install @actions/core @actions/github puppeteer
 
-      - name: Install NPM dependencies
-      - run: npm install @actions/core @actions/github puppeteer
-
-      - name: Generate PDF Action
-        uses: ashuvssut/generatePdf-GHA@v1.0.2-alpha
-        with:
+      - uses: ashuvssut/generatePdf-GHA@v1.0.2-alpha
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
