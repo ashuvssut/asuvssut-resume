@@ -1,4 +1,4 @@
-@use './../../scss/_colors.module.scss';
+@use './scss/_colors.module.scss';
 
 $height: 75px;
 
@@ -23,7 +23,7 @@ $height: 75px;
 	right: 0;
 	height: $height;
 	z-index: 999;
-	.right{
+	.right {
 		display: flex;
 		gap: 5px;
 	}
@@ -38,8 +38,10 @@ $height: 75px;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-    gap: 8px;
+		gap: 8px;
 		font-family: "Roboto Mono", monospace;
+		text-decoration: none;
+		position: relative;
 		&::after {
 			display: none;
 		}

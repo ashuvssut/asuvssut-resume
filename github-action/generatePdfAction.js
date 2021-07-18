@@ -5,9 +5,6 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 const puppeteer = require("puppeteer");
 
-// for testing only
-// require("dotenv").config();
-
 const getFileSha = async (octokit, pdfPath, owner, repo, branch = "main") => {
 	const pdfContent = await octokit.rest.repos.getContent({
 		owner,

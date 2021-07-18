@@ -6,6 +6,7 @@ export const stylesheet = {
 		justifyContent: "center",
 		alignItems: "center",
 		fontFamily: '"Raleway", sans-serif',
+		position: "relative",
 	},
 	page: {
 		minWidth: "21cm",
@@ -16,7 +17,9 @@ export const stylesheet = {
 		display: "block",
 		width: "100%",
 		height: "100%",
-		position: "relative",
+		position: "absolute",
+		top: 0,
+		left: 0,
 	},
 	content: {
 		position: "absolute",

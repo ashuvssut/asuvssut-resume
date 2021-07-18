@@ -1,13 +1,13 @@
 import React, { lazy, Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { withRouter } from "react-router";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 // import Footer from "./components/Footer/Footer";
-import NotFound from "./pages/404/NotFound";
+import NotFound from "./pages/404";
 import "./index.scss";
-import Preloader from "./components/Preloader/Preloader";
+import Preloader from "./components/Preloader";
 
-const Home = lazy(() => import("./pages/Home/Home"));
+const Home = lazy(() => import("./pages/Home"));
 
 function App({ location }) {
   return (

@@ -1,0 +1,32 @@
+@use './scss/_colors.module.scss';
+
+.wrapper {
+	position: absolute;
+	bottom: -28px;
+	right: 50%;
+	transform: translateX(50%);
+	z-index: 1;
+
+	.tooltip {
+		background-color: colors.$grey52;
+		color: colors.$white;
+		position: relative;
+		padding: 4px 9px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 3px colors.$black-light-tint;
+		z-index: initial;
+
+		&::before {
+			content: "";
+			height: 10px;
+			position: absolute;
+			width: 10px;
+			top: -9px;
+			background: inherit;
+			right: 50%;
+			transform: rotateZ(45deg) translateX(50%);
+			box-shadow: inherit;
+			z-index: -1;
+		}
+	}
+}
