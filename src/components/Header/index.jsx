@@ -79,7 +79,7 @@ function Header() {
 
 	return (
 		<>
-			<header className={styles.header + " " + classes.header}>
+			<header id="nav" className={styles.header + " " + classes.header}>
 				<div className={classes.avatarDiv}>
 					<Avatar alt="ashuvssut" src={akAvatar} className={classes.avatar} />
 				</div>
@@ -113,7 +113,6 @@ function Header() {
 					</div>
 				</div>
 			</header>
-			<div className={styles.spacer}></div>
 		</>
 	);
 }

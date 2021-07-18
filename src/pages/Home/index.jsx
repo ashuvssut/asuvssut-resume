@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MetaComponent from "../../seo/MetaComponent";
 import metaData from "../../seo/metaData";
 import styles from "./home.module.scss";
@@ -7,8 +7,13 @@ import { stylesheet as ss } from "./styles";
 import Resume from "./Resume";
 
 function Home() {
+	useEffect(() => {
+		const navHeight = document.getElementById("nav").offsetHeight;
+		document.getElementById("home").style.height = (window.innerHeight - navHeight - 1)  + "px";
+	}, []);
+
 	return (
-		<div className={styles.root}>
+		<div className={styles.root} id="home">
 			<MetaComponent
 				title={metaData.home.title}
 				description={metaData.home.description}

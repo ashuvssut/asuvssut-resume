@@ -2,10 +2,6 @@
 
 $height: 75px;
 
-.spacer {
-	height: $height;
-}
-
 .header {
 	background-color: colors.$backgroundSecondary;
 	font-family: "Roboto Mono", monospace;
@@ -17,15 +13,15 @@ $height: 75px;
 	padding: 15px 15px 15px 30px;
 	gap: 15px;
 	font-size: 14px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: $height;
 	z-index: 999;
+	flex-wrap: wrap;
+	min-height: $height;
+	width: 100%;
 	.right {
 		display: flex;
 		gap: 5px;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.button {
 		border: 2px colors.$white solid;
