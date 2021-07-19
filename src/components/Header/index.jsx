@@ -100,7 +100,7 @@ function Header() {
 					<a
 						id="download"
 						className={styles.button}
-						href="https://github.com/ashuvssut/ashuvssut-resume/blob/download/Resume%20_%20Ashutosh%20Khanduala.pdf"
+						href="https://github.com/ashuvssut/ashuvssut-resume/blob/download/Resume%20_%20Ashutosh%20Khanduala.pdf?raw=true"
 					>
 						Download
 						<PictureAsPdf fontSize="small" />
