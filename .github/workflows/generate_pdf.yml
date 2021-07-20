@@ -16,6 +16,6 @@ jobs:
           node-version: 15.x
 
       - name: Generate PDF Action
-        uses: ashuvssut/generatePdf-GHA@ede566db4f3bafbe621e515eb7aedb8ee276f8cd
+        uses: ashuvssut/generatePdf-GHA@2a4fb71e452cf73e3c3125030677bdc3e6ccdd3f
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
