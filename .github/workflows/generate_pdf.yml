@@ -10,20 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          path: ./
-
       - name: Use Node.js 15.x
         uses: actions/setup-node@v2
         with:
           node-version: 15.x
 
-      - run: rm package.json package-lock.json && npm init -y
-      - name: Install NPM dependencies
-        run: npm install @actions/core @actions/github puppeteer
-
       - name: Generate PDF Action
-        uses: ashuvssut/generatePdf-GHA@03511d646536bee85521bb950a150b3ffd6ae17b
+        uses: ashuvssut/generatePdf-GHA@ede566db4f3bafbe621e515eb7aedb8ee276f8cd
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
