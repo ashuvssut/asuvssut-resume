@@ -7,15 +7,15 @@ on:
 
 jobs:
   generatePdf:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
-      - name: Use Node.js 15.x
+      - name: Use Node.js 12
         uses: actions/setup-node@v2
         with:
-          node-version: 15.x
+          node-version: 12
 
       - name: Generate PDF Action
-        uses: ashuvssut/generatePdf-GHA@2a4fb71e452cf73e3c3125030677bdc3e6ccdd3f
+        uses: ashuvssut/generatePdf-GHA@no-br
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
