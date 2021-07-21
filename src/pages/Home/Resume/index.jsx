@@ -140,7 +140,7 @@ function Resume() {
 									doubt clearing classes
 								</Li1>
 								<Li1>
-									Helped students learn about <span style={ss.spot}>C programming basics</span>
+									Helped students learn about <span style={ss.spot}>C-programming basics</span>
 								</Li1>
 								<Li1>
 									Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
