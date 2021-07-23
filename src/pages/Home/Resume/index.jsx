@@ -64,7 +64,16 @@ function Resume() {
 						<H1>technical skills</H1>
 						<SubTitle2>More Experienced in:</SubTitle2>
 						<Tags
-							tags={["React", "Git", "Javascript", "C++", "HTML", "SASS / CSS", "Chrome Dev Tools"]}
+							tags={[
+								"React",
+								"Git",
+								"Javascript",
+								"C++",
+								"SASS / CSS",
+								"HTML",
+								"GitHub Actions",
+								"Chrome Dev Tools",
+							]}
 						></Tags>
 
 						<SubTitle2>Acquainted with:</SubTitle2>
@@ -82,29 +91,64 @@ function Resume() {
 						></Tags>
 						<div style={{ height: 5 }}></div>
 						<H1>Soft skills</H1>
-						<List>
+						<List style={{ display: "flex", flexWrap: "wrap" }}>
 							<Li1>A Bilingual Communicator (English, Hindi)</Li1>
-							<Li1>A passionate Learner</Li1>
-							<Li1>A Team Player</Li1>
-							<Li1>A Problem-Solver</Li1>
+							<Li1>A Lifelong Learner</Li1>
+							<Li1 style={{ transform: "translateX(25px)" }}>A Team Player</Li1>
 						</List>
 					</Section>
 
 					<Section title="experience">
 						<div style={ss.card}>
-							<MixedTitle h1="devscript winter of code" h2="Open Source" />
-							<SubTitle2>January 2021 - March 2021 | India</SubTitle2>
-							<Link1 variant="small" href="https://devscript.tech/woc/">
+							<MixedTitle h1="React Dev Intern @DATOMS" h2="Internship" />
+							<SubTitle2>May 2021 - July 2021 | Bhubaneshwar, India</SubTitle2>
+							<List>
+								<Li1>
+									Developed <Link1 href="#"> DATOMS Form Creator WebApp</Link1> (Link will be
+									updated soon)
+								</Li1>
+							</List>
+						</div>
+						<div style={ss.card}>
+							<H1>Web Dev Intern @Phoenix Robotix</H1>
+							<SubTitle2>Jan 2021 - Mar 2021 | Bhubaneshwar, India</SubTitle2>
+							<List>
+								<Li1>
+									Developed official <Link1 href="https://datoms.io/">DATOMS website</Link1> (WP)
+								</Li1>
+								<Li1>
+									Improved website's <span style={ss.spot}>Google Page Rank:</span>
+									<List>
+										<Li2>
+											<span style={ss.spot}>Desktop view</span> score from 24 to{" "}
+											<span style={ss.spot}>91</span>
+										</Li2>
+										<Li2>
+											<span style={ss.spot}>Mobile view</span> score from 6 to{" "}
+											<span style={ss.spot}>48</span>
+										</Li2>
+									</List>
+								</Li1>
+								<Li1>
+									Improved <span style={ss.spot}>GTMetrix</span> Performance grade from F to
+									<span style={ss.spot}> A grade</span>
+								</Li1>
+							</List>
+						</div>
+
+						<div style={ss.card}>
+							<MixedTitle h1="girlscript summer of code" h2="Open Source" />
+							<SubTitle2>March 2021 - May 2021 | India</SubTitle2>
+							<Link1 variant="small" href="https://gssoc.girlscript.tech/">
 								devscript.tech/woc/
 							</Link1>
 							<List>
 								<Li1>
-									Secured <Link1 href="https://devscript.tech/woc/leaderboard/">Rank-3</Link1> in
-									this event.
+									Secured <Link1 href="https://gssoc21lb.prav.xyz/">Rank 14</Link1> in this event.
 								</Li1>
 
 								<Li1>
-									Contributed in <span style={ss.spot}>three opensource projects:</span>
+									Contributed in <span style={ss.spot}>three open source projects:</span>
 								</Li1>
 								<List>
 									<Li2>
@@ -113,40 +157,16 @@ function Resume() {
 										</Link2>
 									</Li2>
 									<Li2>
-										<Link2
-											suffix="(React)"
-											href="https://github.com/HITK-TECH-Community/Community-Website"
-										>
-											HITK-Community-website
+										<Link2 suffix="(React)" href="https://github.com/CSwala/CSwala-website">
+											CSwala-website
 										</Link2>
 									</Li2>
 									<Li2>
-										<Link2
-											suffix="(Next.js)"
-											href="https://github.com/smaranjitghose/awesome-portfolio-websites"
-										>
-											awesome-portfolio-website
+										<Link2 suffix="(MERN)" href="https://github.com/ADRE9/bunk-manager-mern">
+											Bunk Manager
 										</Link2>
 									</Li2>
 								</List>
-							</List>
-						</div>
-						<div style={ss.card}>
-							<MixedTitle h1="mentor in liftoff-c program" h2="Volunteer, Mentorship" />
-							<SubTitle2>February 2021 | India</SubTitle2>
-							<List>
-								<Li1>
-									<span style={ss.spot}>Mentored a 16 students </span>in weekly regular classes and
-									doubt clearing classes
-								</Li1>
-								<Li1>
-									Helped students learn about <span style={ss.spot}>C-programming basics</span>
-								</Li1>
-								<Li1>
-									Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
-									<span style={ss.spot}> CodeChef VSSUT chapter</span> and
-									<span style={ss.spot}> Enigma VSSUT</span>.
-								</Li1>
 							</List>
 						</div>
 					</Section>
@@ -154,8 +174,40 @@ function Resume() {
 
 				<div style={ss.secondCol}>
 					<div style={ss.card}>
+						<H1>Other Open Source Event Participations</H1>
+						<List>
+							<Li1>
+								<H2>DevScript Winter of Code</H2>
+								Secured <span style={ss.spot}>Rank 3 </span> and contributed in 3 projects.
+							</Li1>
+							<Li1>
+								<H2>Script Winter of Code</H2>
+								Secured <span style={ss.spot}>Rank 6 </span> and contributed in 3 projects.
+							</Li1>
+							<Li1>
+								<H2>Mexili Winter of Code</H2>
+								Secured <span style={ss.spot}>Rank 5 </span> and contributed in 2 projects.
+							</Li1>
+						</List>
+					</div>
+					<div style={ss.card}>
+						<MixedTitle h1="mentor in liftoff-c program" h2="Volunteer, Mentorship" />
+						<SubTitle2>February 2021 | India</SubTitle2>
+						<List>
+							<Li1>
+								<span style={ss.spot}>Mentored a 16 students </span>in weekly regular classes and
+								doubt clearing classes. <span style={ss.spot}>Taught C programming basics</span>
+							</Li1>
+							<Li1>
+								Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
+								<span style={ss.spot}> CodeChef VSSUT chapter</span> and
+								<span style={ss.spot}> Enigma VSSUT</span>.
+							</Li1>
+						</List>
+					</div>
+					<div style={ss.card}>
 						<MixedTitle h1="Web Developer Intern @BnB" h2="Internship" />
-						<SubTitle2>June 2020 - August 2020 | India.</SubTitle2>
+						<SubTitle2>June 2020 - August 2020 | India</SubTitle2>
 						<Link1 href="http://www.blessnbliss.org" variant="small">
 							www.blessnbliss.org
 						</Link1>
@@ -174,8 +226,29 @@ function Resume() {
 					</div>
 					<Section title="personal projects">
 						<div style={ss.card}>
+							<MixedTitle h1="My Resume Website" h2="React, GitHub Actions, Puppeteer" />
+							<SubTitle2>July 2021 | Burla, India</SubTitle2>
+							<Link1 href="https://ashuvssut.github.io/ashuvssut-resume" variant="small">
+								ashuvssut.github.io/ashuvssut-resume
+							</Link1>
+							<List>
+								<Li1>A website to view and download my Resume</Li1>
+								<Li1>
+									<span style={ss.spot}>
+										Developed a{" "}
+										<Link1 href="https://github.com/ashuvssut/generatePdf-GHA">Github Action</Link1>
+									</span>{" "}
+									to generate Resume PDF using puppeteer from Resume website and commit it to the
+									Repository updating the old PDF version.
+								</Li1>
+							</List>
+							<Link2 prefix="GitHub" href="https://github.com/ashuvssut/ashuvssut-resume">
+								repo link here
+							</Link2>
+						</div>
+						<div style={ss.card}>
 							<MixedTitle h1="morse code project" h2="WebApp, used JS Web Audio API" />
-							<SubTitle2>August 2020 | Burla, India.</SubTitle2>
+							<SubTitle2>August 2020 | Burla, India</SubTitle2>
 							<Link1 href="https://ashuvssut.github.io/the-morse-code-project/" variant="small">
 								ashuvssut.github.io/the-morse-code-project/
 							</Link1>

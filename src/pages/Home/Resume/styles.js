@@ -2,9 +2,9 @@ import colors from "scss/_colors.module.scss";
 
 export const stylesheet = {
 	header: {
-		height: "125px",
 		textAlign: "center",
-		paddingTop: "25px",
+		paddingTop: 20,
+		paddingBottom: 15,
 	},
 	firstName: {
 		fontSize: "46px",
