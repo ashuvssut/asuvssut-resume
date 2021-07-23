@@ -1,9 +1,8 @@
 name: GeneratePDF
 
 on:
-  push:
-    branches:
-      - main
+  repository_dispatch:
+    types: [trigger-generate-pdf-workflow]
 
 jobs:
   generatePdf:

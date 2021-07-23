@@ -25,3 +25,11 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
+      
+      - name: Trigger generate_pdf workflow next
+        if: success() #if the above steps succeed then only trigger this workflow
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.MY_PAT }}
+          repository: ${{ github.repository }}
+          event-type: trigger-generate-pdf-workflow
