@@ -23,7 +23,7 @@ export default function Footer(props) {
 						<img className={styles.logo} src={Logo} alt="" />
 						<p>Ashutosh Khanduala</p>
 					</div>
-					<a href="mailto:cs.wala.guy@gmail.com">ashu.khanduala@gmail.com</a>
+					<a href="mailto:ashu.khanduala@gmail.com">ashu.khanduala@gmail.com</a>
 					<div className={styles.socialDiv}>
 						<a href="https://github.com/ashuvssut/ashuvssut-resume">
 							<UseAnimations
