@@ -5,9 +5,11 @@ import { Li1, Li2, List, LiPara } from "./components/List";
 import Section from "./components/Section";
 import Tags from "./components/Tags";
 import { MixedTitle, H1, H2, SubTitle1, SubTitle2 } from "./components/Title";
-import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
 import { ReactComponent as StackOverflow } from "./../../../assets/svg/stackoverflow.svg";
 import { ReactComponent as ExtLink } from "./../../../assets/svg/ext-link.svg";
+import { ReactComponent as Twitter } from "./../../../assets/svg/twitter.svg";
+import { ReactComponent as LinkedIn } from "./../../../assets/svg/linkedin.svg";
+import { ReactComponent as GitHub } from "./../../../assets/svg/github.svg";
 
 import { stylesheet as ss } from "./styles";
 
@@ -22,7 +24,7 @@ function Resume() {
 					<IconLink
 						href="https://github.com/ashuvssut"
 						color="#171515"
-						icon={<GitHub style={{ transform: "scale(0.7)" }} />}
+						icon={<GitHub />}
 					>
 						GitHub
 					</IconLink>
@@ -30,7 +32,7 @@ function Resume() {
 					<IconLink
 						href="https://twitter.com/ashuvssut"
 						color="#00acee"
-						icon={<Twitter style={{ transform: "scale(0.8)" }} />}
+						icon={<Twitter/>}
 					>
 						Twitter
 					</IconLink>
@@ -38,7 +40,7 @@ function Resume() {
 					<IconLink
 						href="https://www.linkedin.com/in/ashuvssut/"
 						color="#0e76a8"
-						icon={<LinkedIn style={{ transform: "scale(0.8)" }} />}
+						icon={<LinkedIn />}
 					>
 						LinkedIn
 					</IconLink>
