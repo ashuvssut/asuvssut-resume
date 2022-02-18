@@ -20,6 +20,9 @@ export const stylesheet = {
 		fontSize: "14px",
 		color: colors.grey,
 		textShadow: "0 0 1px rgba(0, 0, 0, 0.15)",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
 	},
 
 	main: {
@@ -28,8 +31,8 @@ export const stylesheet = {
 		paddingTop: 8,
 	},
 	firstCol: {
-		minWidth: 290,
-		maxWidth: 290,
+		minWidth: 312,
+		maxWidth: 312,
 		paddingRight: 17,
 	},
 	card: {

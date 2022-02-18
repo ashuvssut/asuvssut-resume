@@ -1,4 +1,4 @@
-import colors from "scss/_colors.module.scss"
+import colors from "scss/_colors.module.scss";
 
 export const stylesheet = {
 	root: {
@@ -11,5 +11,16 @@ export const stylesheet = {
 		color: "inherit",
 		fontWeight: "inherit",
 		fontFamily: '"Lato", sans-serif',
+		cursor: "pointer",
+	},
+	socialA: {
+		color: "inherit",
+		fontWeight: "inherit",
+		fontFamily: '"Lato", sans-serif',
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
+		cursor: "pointer",
+		verticalAlign: "bottom"
 	},
 };

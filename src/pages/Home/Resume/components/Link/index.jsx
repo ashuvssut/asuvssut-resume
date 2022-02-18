@@ -2,10 +2,35 @@ import React from "react";
 
 import { stylesheet as ss } from "./styles";
 
+export function IconLink({ children, href, variant, color, icon, inline }) {
+	return (
+		<a
+			style={{
+				...ss.socialA,
+				color,
+				fontSize: variant === "small" && 13,
+				opacity: variant === "small" && 0.7,
+				textDecoration: "none",
+				display: inline ? "inline" : "flex",
+			}}
+			target="_blank"
+			rel="noopener noreferrer"
+			href={href}
+		>
+			{icon}
+			{children}
+		</a>
+	);
+}
+
 export function Link1({ children, href, variant }) {
 	return (
 		<a
-			style={{ ...ss.a, fontSize: variant === "small" && 13, opacity: variant === "small" && 0.7 }}
+			style={{
+				...ss.a,
+				fontSize: variant === "small" && 13,
+				opacity: variant === "small" && 0.7,
+			}}
 			target="_blank"
 			rel="noopener noreferrer"
 			href={href}

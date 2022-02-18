@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./header.module.scss";
 import akAvatar from "./../../assets/header/ak.jfif";
-import { PictureAsPdf, Link } from "@material-ui/icons";
+import { PictureAsPdf, Link } from "@mui/icons-material";
 import { Avatar, makeStyles } from "@material-ui/core";
 import Tooltip from "components/Tooltip";
 
