@@ -12,13 +12,14 @@ import { ReactComponent as LinkedIn } from "./../../../assets/svg/linkedin.svg";
 import { ReactComponent as GitHub } from "./../../../assets/svg/github.svg";
 
 import { stylesheet as ss } from "./styles";
+import { B } from "./components/Emphasis";
 
 function Resume() {
 	return (
 		<>
 			<header style={ss.header}>
-				<h1 style={ss.firstName}>
-					Ashutosh <span style={ss.lastName}>Khanduala</span>
+				<h1 style={ss.name}>
+					Ashutosh <span style={{fontWeight: 300}}>Khanduala</span>
 				</h1>
 				<div style={ss.line}>
 					<IconLink
@@ -110,7 +111,7 @@ function Resume() {
 							<List>
 								<Li1>
 									Developed a Form Creator WebApp using&nbsp;
-									<span style={ss.spot}>React, lodash and AntDesign</span>
+									<B>React, lodash and AntDesign</B>
 								</Li1>
 							</List>
 						</div>
@@ -122,21 +123,21 @@ function Resume() {
 									Developed official <Link1 href="https://datoms.io/">DATOMS website</Link1> (WP)
 								</Li1>
 								<Li1>
-									Improved website's <span style={ss.spot}>Google Page Rank:</span>
+									Improved website's <B>Google Page Rank:</B>
 									<List>
 										<Li2>
-											<span style={ss.spot}>Desktop view</span> score from 24 to&nbsp;
-											<span style={ss.spot}>91</span>
+											<B>Desktop view</B> score from 24 to&nbsp;
+											<B>91</B>
 										</Li2>
 										<Li2>
-											<span style={ss.spot}>Mobile view</span> score from 6 to&nbsp;
-											<span style={ss.spot}>48</span>
+											<B>Mobile view</B> score from 6 to&nbsp;
+											<B>48</B>
 										</Li2>
 									</List>
 								</Li1>
 								<Li1>
-									Improved <span style={ss.spot}>GTMetrix</span> Performance grade from F to
-									<span style={ss.spot}> A grade</span>
+									Improved <B>GTMetrix</B> Performance grade from F to
+									<B> A grade</B>
 								</Li1>
 							</List>
 						</div>
@@ -147,10 +148,10 @@ function Resume() {
 								<Li1>
 									Developed Official <Link1 href="http://www.blessnbliss.org">BnB Website</Link1>
 									&nbsp;using
-									<span style={ss.spot}> HTML, CSS, JavaScript</span>.
+									<B> HTML, CSS, JavaScript</B>.
 								</Li1>
 								<Li1>
-									Integrated push deployment <span style={ss.spot}>(CD pipeline)</span>.
+									Integrated push deployment <B>(CD pipeline)</B>.
 								</Li1>
 							</List>
 							<Link2 prefix="GitHub" href="https://github.com/ashuvssut/Bless-n-Bliss">
@@ -165,10 +166,10 @@ function Resume() {
 							<List>
 								<Li1>
 									Mentored students and&nbsp;
-									<span style={ss.spot}>taught Basic & Advanced CSS Concepts</span>
+									<B>taught Basic & Advanced CSS Concepts</B>
 								</Li1>
 								<Li1>
-									Organized by <span style={ss.spot}>MLSA Community - Sanins</span>.
+									Organized by <B>MLSA Community - Sanins</B>.
 								</Li1>
 							</List>
 						</div>
@@ -181,12 +182,12 @@ function Resume() {
 						<SubTitle2>February 2021 | VSSUT, Burla</SubTitle2>
 						<List>
 							<Li1>
-								Mentored students and <span style={ss.spot}>taught C programming basics</span>
+								Mentored students and <B>taught C programming basics</B>
 							</Li1>
 							<Li1>
-								Co-organized by <span style={ss.spot}>Google Developer Students Club</span>,
-								<span style={ss.spot}> CodeChef VSSUT chapter</span> and
-								<span style={ss.spot}> Enigma VSSUT</span>.
+								Co-organized by <B>Google Developer Students Club</B>,
+								<B> CodeChef VSSUT chapter</B> and
+								<B> Enigma VSSUT</B>.
 							</Li1>
 						</List>
 					</div>
@@ -205,7 +206,7 @@ function Resume() {
 							</Li1>
 							<Li1>
 								<H2>DevScript Winter of Code</H2>
-								Secured <span style={ss.spot}>Rank 3 </span> and contributed in 3 projects.
+								Secured <B>Rank 3 </B> and contributed in 3 projects.
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3ADWOC"
 									icon={<ExtLink />}
@@ -214,7 +215,7 @@ function Resume() {
 							</Li1>
 							<Li1>
 								<H2>Script Winter of Code</H2>
-								Secured <span style={ss.spot}>Rank 6 </span> and contributed in 3 projects.
+								Secured <B>Rank 6 </B> and contributed in 3 projects.
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3Aswoc2021"
 									icon={<ExtLink />}
@@ -223,7 +224,7 @@ function Resume() {
 							</Li1>
 							<Li1>
 								<H2>Mexili Winter of Code</H2>
-								Secured <span style={ss.spot}>Rank 5 </span> and contributed in 2 projects.
+								Secured <B>Rank 5 </B> and contributed in 2 projects.
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3AMWOC"
 									icon={<ExtLink />}
@@ -245,10 +246,10 @@ function Resume() {
 							<List>
 								<Li1>
 									An App that&nbsp;
-									<span style={ss.spot}>lists nearest Blood Donors & Blood Banks</span>
+									<B>lists nearest Blood Donors & Blood Banks</B>
 								</Li1>
 								<Li1>
-									Integrated <span style={ss.spot}>Azure Maps API</span> to create Maps that shows
+									Integrated <B>Azure Maps API</B> to create Maps that shows
 									nearest Blood Donors and Blood Banks.
 								</Li1>
 							</List>
@@ -271,8 +272,8 @@ function Resume() {
 							<List>
 								<Li1>
 									An App that can&nbsp;
-									<span style={ss.spot}>send current location of the user</span> to her trusted list
-									of contacts <span style={ss.spot}>via SMS</span>
+									<B>send current location of the user</B> to her trusted list
+									of contacts <B>via SMS</B>
 								</Li1>
 							</List>
 							<Link2
@@ -291,11 +292,11 @@ function Resume() {
 							<List>
 								<Li1>A website to view and download my Resume</Li1>
 								<Li1>
-									<span style={ss.spot}>
+									<B>
 										Developed a&nbsp;
 										<Link1 href="https://github.com/ashuvssut/generatePdf-GHA">Github Action</Link1>
-									</span>
-									&nbsp; to <span style={ss.spot}>generate Resume PDF using puppeteer</span> from my
+									</B>
+									&nbsp; to <B>generate Resume PDF using puppeteer</B> from my
 									Resume website and commit it to the Repository updating the old PDF version.
 								</Li1>
 							</List>
@@ -309,17 +310,17 @@ function Resume() {
 							<H1>Community Co-Lead @MLSA SANINS</H1>
 							<SubTitle2>February 2021 | VSSUT, Burla</SubTitle2>
 							<LiPara>
-								MLSA Sanins is a <span style={ss.spot}>Student-run Tech Community</span> powered by
+								MLSA Sanins is a <B>Student-run Tech Community</B> powered by
 								Microsoft Learn Student Ambassadors Program
 							</LiPara>
 							<H2>MY ROLES AND RESPONSIBILITIES</H2>
 							<List>
 								<Li1>
-									<span style={ss.spot}>Mentor students in learning events</span> to help them learn
+									<B>Mentor students in learning events</B> to help them learn
 									new technologies
 								</Li1>
 								<Li1>
-									<span style={ss.spot}>Maintain Community Projects, Manage and Mentor Teams</span>
+									<B>Maintain Community Projects, Manage and Mentor Teams</B>
 								</Li1>
 							</List>
 						</div>

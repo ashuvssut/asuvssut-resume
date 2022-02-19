@@ -6,14 +6,13 @@ export const stylesheet = {
 		paddingTop: 20,
 		paddingBottom: 15,
 	},
-	firstName: {
+	name: {
 		fontSize: "46px",
 		margin: "0",
 		fontWeight: 100,
 		color: colors.grey52,
 		lineHeight: 1.1,
 	},
-	lastName: { fontWeight: 300 },
 	line: {
 		fontFamily: '"Raleway", sans-serif',
 		fontWeight: 600,
@@ -37,8 +36,5 @@ export const stylesheet = {
 	},
 	card: {
 		marginBottom: 10,
-	},
-	spot: {
-		fontWeight: 600,
 	},
 };
