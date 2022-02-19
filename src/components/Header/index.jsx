@@ -2,32 +2,12 @@ import React, { useState } from "react";
 import styles from "./header.module.scss";
 import akAvatar from "./../../assets/header/ak.jfif";
 import { PictureAsPdf, Link } from "@mui/icons-material";
-import { Avatar, makeStyles } from "@material-ui/core";
+import { Avatar, Box } from "@mui/material";
 import Tooltip from "components/Tooltip";
 
 function Header() {
 	const [loading, setLoading] = useState(false);
 	const [opacity, setOpacity] = useState(0);
-	const useStyles = makeStyles(theme => ({
-		header: {
-			[theme.breakpoints.down("xs")]: {
-				justifyContent: "space-around",
-			},
-		},
-		avatarDiv: {
-			display: "block",
-			[theme.breakpoints.down("xs")]: {
-				display: "none",
-			},
-		},
-		avatar: {
-			"& > *": {
-				margin: 8,
-			},
-		},
-	}));
-
-	const classes = useStyles();
 
 	function _arrayBufferToBase64(buffer) {
 		var binary = "";
@@ -79,10 +59,24 @@ function Header() {
 
 	return (
 		<>
-			<header id="nav" className={styles.header + " " + classes.header}>
-				<div className={classes.avatarDiv}>
-					<Avatar alt="ashuvssut" src={akAvatar} className={classes.avatar} />
-				</div>
+			<Box
+				id="nav"
+				sx={{
+					justifyContent: { xs: "space-around" },
+				}}
+				className={styles.header}
+			>
+				<Box sx={{ display: { xs: "none", sm: "block" } }}>
+					<Avatar
+						alt="ashuvssut"
+						src={akAvatar}
+						sx={{
+							"& > *": {
+								margin: 8,
+							},
+						}}
+					/>
+				</Box>
 				<div className={styles.right} style={{ display: "none" }}>
 					{!loading ? (
 						<div className={styles.button} onClick={generatePdf}>
@@ -112,7 +106,7 @@ function Header() {
 						<Tooltip title="Copied!" opacity={opacity} />
 					</div>
 				</div>
-			</header>
+			</Box>
 		</>
 	);
 }
