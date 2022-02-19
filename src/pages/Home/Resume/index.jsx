@@ -13,28 +13,21 @@ import { ReactComponent as GitHub } from "./../../../assets/svg/github.svg";
 
 import { stylesheet as ss } from "./styles";
 import { B } from "./components/Emphasis";
+import { BI } from "./components/Emphasis";
 
 function Resume() {
 	return (
 		<>
 			<header style={ss.header}>
 				<h1 style={ss.name}>
-					Ashutosh <span style={{fontWeight: 300}}>Khanduala</span>
+					Ashutosh <span style={{ fontWeight: 300 }}>Khanduala</span>
 				</h1>
 				<div style={ss.line}>
-					<IconLink
-						href="https://github.com/ashuvssut"
-						color="#171515"
-						icon={<GitHub />}
-					>
+					<IconLink href="https://github.com/ashuvssut" color="#171515" icon={<GitHub />}>
 						GitHub
 					</IconLink>
 					&nbsp;|&nbsp;
-					<IconLink
-						href="https://twitter.com/ashuvssut"
-						color="#00acee"
-						icon={<Twitter/>}
-					>
+					<IconLink href="https://twitter.com/ashuvssut" color="#00acee" icon={<Twitter />}>
 						Twitter
 					</IconLink>
 					&nbsp;|&nbsp;
@@ -185,8 +178,8 @@ function Resume() {
 								Mentored students and <B>taught C programming basics</B>
 							</Li1>
 							<Li1>
-								Co-organized by <B>Google Developer Students Club</B>,
-								<B> CodeChef VSSUT chapter</B> and
+								Co-organized by <B>Google Developer Students Club</B>,<B> CodeChef VSSUT chapter</B>{" "}
+								and
 								<B> Enigma VSSUT</B>.
 							</Li1>
 						</List>
@@ -249,8 +242,8 @@ function Resume() {
 									<B>lists nearest Blood Donors & Blood Banks</B>
 								</Li1>
 								<Li1>
-									Integrated <B>Azure Maps API</B> to create Maps that shows
-									nearest Blood Donors and Blood Banks.
+									Integrated <B>Azure Maps API</B> to create Maps that shows nearest Blood Donors
+									and Blood Banks.
 								</Li1>
 							</List>
 							<Link2
@@ -272,8 +265,8 @@ function Resume() {
 							<List>
 								<Li1>
 									An App that can&nbsp;
-									<B>send current location of the user</B> to her trusted list
-									of contacts <B>via SMS</B>
+									<B>send current location of the user</B> to her <BI>trusted list</BI> of
+									contacts when in danger with just one tap <B>via SMS.</B>
 								</Li1>
 							</List>
 							<Link2
@@ -296,8 +289,8 @@ function Resume() {
 										Developed a&nbsp;
 										<Link1 href="https://github.com/ashuvssut/generatePdf-GHA">Github Action</Link1>
 									</B>
-									&nbsp; to <B>generate Resume PDF using puppeteer</B> from my
-									Resume website and commit it to the Repository updating the old PDF version.
+									&nbsp; to <B>generate Resume PDF using puppeteer</B> from my Resume website and
+									commit it to the Repository updating the old PDF version.
 								</Li1>
 							</List>
 							<Link2 prefix="GitHub" href="https://github.com/ashuvssut/ashuvssut-resume">
@@ -310,14 +303,13 @@ function Resume() {
 							<H1>Community Co-Lead @MLSA SANINS</H1>
 							<SubTitle2>February 2021 | VSSUT, Burla</SubTitle2>
 							<LiPara>
-								MLSA Sanins is a <B>Student-run Tech Community</B> powered by
-								Microsoft Learn Student Ambassadors Program
+								MLSA Sanins is a <B>Student-run Tech Community</B> powered by Microsoft Learn
+								Student Ambassadors Program
 							</LiPara>
 							<H2>MY ROLES AND RESPONSIBILITIES</H2>
 							<List>
 								<Li1>
-									<B>Mentor students in learning events</B> to help them learn
-									new technologies
+									<B>Mentor students in learning events</B> to help them learn new technologies
 								</Li1>
 								<Li1>
 									<B>Maintain Community Projects, Manage and Mentor Teams</B>

@@ -17,9 +17,5 @@ export function I({ children }) {
 }
 
 export function BI({ children }) {
-	return (
-		<B>
-			<I>{children}</I>
-		</B>
-	);
+	return <span style={{ fontStyle: "italic", fontWeight: 800 }}>{children}</span>;
 }
