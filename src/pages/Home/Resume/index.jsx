@@ -158,7 +158,10 @@ function Resume() {
 							<SubTitle2>January 2022 | VSSUT, Burla</SubTitle2>
 							<List>
 								<Li1>
-									Mentored students and&nbsp;
+									<Link1 href="https://www.youtube.com/watch?v=5sc7aln7ok8&list=PL_LImCf-ChHUT-ddowQC0XftHznEYF396">
+										Mentored students
+									</Link1>
+									&nbsp;and&nbsp;
 									<B>taught Basic & Advanced CSS Concepts</B>
 								</Li1>
 								<Li1>
@@ -265,8 +268,8 @@ function Resume() {
 							<List>
 								<Li1>
 									An App that can&nbsp;
-									<B>send current location of the user</B> to her <BI>trusted list</BI> of
-									contacts when in danger with just one tap <B>via SMS.</B>
+									<B>send current location of the user</B> to her <BI>trusted list</BI> of contacts
+									when in danger with just one tap <B>via SMS.</B>
 								</Li1>
 							</List>
 							<Link2
