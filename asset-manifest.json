@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ashuvssut-resume/static/css/main.53e29131.css",
-    "main.js": "/ashuvssut-resume/static/js/main.7828d29b.js",
-    "static/css/418.2a06ef80.chunk.css": "/ashuvssut-resume/static/css/418.2a06ef80.chunk.css",
-    "static/js/418.a3e0286f.chunk.js": "/ashuvssut-resume/static/js/418.a3e0286f.chunk.js",
-    "static/js/787.11afddac.chunk.js": "/ashuvssut-resume/static/js/787.11afddac.chunk.js",
-    "static/media/ak.jfif": "/ashuvssut-resume/static/media/ak.08f6928a46512eed49ce.jfif",
-    "static/media/github.svg": "/ashuvssut-resume/static/media/github.5725ce2c5ad13b9c6527c25ea4c20fa6.svg",
-    "static/media/twitter.svg": "/ashuvssut-resume/static/media/twitter.fddf5a551b41697ae81598bec326162c.svg",
-    "index.html": "/ashuvssut-resume/index.html",
-    "static/media/linkedin.svg": "/ashuvssut-resume/static/media/linkedin.868ca6577bcdd9fd73f159dea2ed6041.svg",
-    "static/media/ext-link.svg": "/ashuvssut-resume/static/media/ext-link.31d6f1273c22b6be5a833936a7a41235.svg",
-    "static/media/stackoverflow.svg": "/ashuvssut-resume/static/media/stackoverflow.131af3606af901cd841c2d62cf8bc636.svg",
-    "main.53e29131.css.map": "/ashuvssut-resume/static/css/main.53e29131.css.map",
-    "main.7828d29b.js.map": "/ashuvssut-resume/static/js/main.7828d29b.js.map",
-    "418.2a06ef80.chunk.css.map": "/ashuvssut-resume/static/css/418.2a06ef80.chunk.css.map",
-    "418.a3e0286f.chunk.js.map": "/ashuvssut-resume/static/js/418.a3e0286f.chunk.js.map",
-    "787.11afddac.chunk.js.map": "/ashuvssut-resume/static/js/787.11afddac.chunk.js.map"
+    "main.css": "/static/css/main.53e29131.css",
+    "main.js": "/static/js/main.87a09edf.js",
+    "static/css/760.de90c6f7.chunk.css": "/static/css/760.de90c6f7.chunk.css",
+    "static/js/760.f6b3b3e9.chunk.js": "/static/js/760.f6b3b3e9.chunk.js",
+    "static/js/787.37063031.chunk.js": "/static/js/787.37063031.chunk.js",
+    "static/media/ak.jfif": "/static/media/ak.08f6928a46512eed49ce.jfif",
+    "static/media/github.svg": "/static/media/github.5725ce2c5ad13b9c6527c25ea4c20fa6.svg",
+    "static/media/twitter.svg": "/static/media/twitter.fddf5a551b41697ae81598bec326162c.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.868ca6577bcdd9fd73f159dea2ed6041.svg",
+    "static/media/ext-link.svg": "/static/media/ext-link.31d6f1273c22b6be5a833936a7a41235.svg",
+    "static/media/stackoverflow.svg": "/static/media/stackoverflow.131af3606af901cd841c2d62cf8bc636.svg",
+    "main.53e29131.css.map": "/static/css/main.53e29131.css.map",
+    "main.87a09edf.js.map": "/static/js/main.87a09edf.js.map",
+    "760.de90c6f7.chunk.css.map": "/static/css/760.de90c6f7.chunk.css.map",
+    "760.f6b3b3e9.chunk.js.map": "/static/js/760.f6b3b3e9.chunk.js.map",
+    "787.37063031.chunk.js.map": "/static/js/787.37063031.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53e29131.css",
-    "static/js/main.7828d29b.js"
+    "static/js/main.87a09edf.js"
   ]
 }
