@@ -1,4 +1,6 @@
-export const stylesheet = {
+import { IStyleSheet } from "types/IStyleSheet";
+
+export const stylesheet: IStyleSheet = {
 	htmlBody: {
 		background: "#323639",
 		width: "100%",

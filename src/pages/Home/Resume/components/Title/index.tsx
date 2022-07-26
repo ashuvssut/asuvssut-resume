@@ -1,16 +1,20 @@
-import React from "react";
-
+import { FC } from "react";
+import { FCC } from "types/FCC";
 import { stylesheet as ss } from "./styles";
 
-export function H1({ children }) {
+export const H1: FCC = ({ children }) => {
 	return <h3 style={ss.h1}>{children}</h3>;
 }
 
-export function H2({ children }) {
+export const H2: FCC = ({ children }) => {
 	return <h4 style={ss.h2}>{children}</h4>;
-}
+};
 
-export function MixedTitle({ h1, h2 }) {
+interface IMixedTitle{
+	h1: string;
+	h2: string;
+}
+export const MixedTitle: FC<IMixedTitle> = ({ h1, h2 }) =>  {
 	return (
 		<div style={{ marginBottom: 3 }}>
 			<h3 style={{ ...ss.h1, marginBottom: 0, display: "inline" }}>{h1}</h3>
@@ -20,10 +24,10 @@ export function MixedTitle({ h1, h2 }) {
 	);
 }
 
-export function SubTitle1({ children }) {
+export const SubTitle1: FCC = ({ children }) => {
 	return <h4 style={ss.subtitle1}>{children}</h4>;
 }
 
-export function SubTitle2({ children }) {
+export const SubTitle2: FCC = ({ children }) => {
 	return <h4 style={ss.subtitle2}>{children}</h4>;
 }

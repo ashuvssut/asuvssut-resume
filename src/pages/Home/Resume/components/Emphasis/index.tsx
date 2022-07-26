@@ -1,6 +1,6 @@
-import React from "react";
+import { FCC } from "types/FCC";
 
-export function B({ children }) {
+export const B: FCC = ({ children }) => {
 	return (
 		<span
 			style={{
@@ -10,12 +10,12 @@ export function B({ children }) {
 			{children}
 		</span>
 	);
-}
+};
 
-export function I({ children }) {
+export const I: FCC = ({ children }) => {
 	return <span style={{ fontStyle: "italic" }}>{children}</span>;
-}
+};
 
-export function BI({ children }) {
+export const BI: FCC = ({ children }) => {
 	return <span style={{ fontStyle: "italic", fontWeight: 800 }}>{children}</span>;
-}
+};

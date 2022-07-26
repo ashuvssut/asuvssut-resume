@@ -1,6 +1,7 @@
 import colors from "scss/_colors.module.scss";
+import { IStyleSheet } from "types/IStyleSheet";
 
-export const stylesheet = {
+export const stylesheet: IStyleSheet = {
 	section: {
 		marginBottom: 15,
 	},

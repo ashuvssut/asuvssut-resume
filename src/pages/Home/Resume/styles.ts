@@ -1,6 +1,6 @@
 import colors from "scss/_colors.module.scss";
-
-export const stylesheet = {
+import { IStyleSheet } from "types/IStyleSheet";
+export const stylesheet: IStyleSheet = {
 	header: {
 		textAlign: "center",
 		paddingTop: 20,

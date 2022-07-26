@@ -1,11 +1,12 @@
 import colors from "scss/_colors.module.scss";
+import { IStyleSheet } from "types/IStyleSheet";
 
-export const stylesheet = {
+export const stylesheet: IStyleSheet = {
 	tagsWrap: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap:3,
-    marginBottom: 6,
+		display: "flex",
+		flexWrap: "wrap",
+		gap: 3,
+		marginBottom: 6,
 	},
 	tag: {
 		backgroundColor: colors.lightGrey,
