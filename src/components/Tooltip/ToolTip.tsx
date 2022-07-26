@@ -16,5 +16,3 @@ export const Tooltip: FC<ITooltip> = ({ title, opacity }) => {
 		</div>
 	);
 };
-
-export default Tooltip;

@@ -15,5 +15,3 @@ export const Section: FC<ISection> = ({ title, noMarginTop, children }) => {
 		</div>
 	);
 };
-
-export default Section;

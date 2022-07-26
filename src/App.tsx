@@ -1,10 +1,10 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import { useLocation } from "react-router";
-import Header from "components/Header";
-import NotFound from "pages/404";
+import { Header } from "components/Header";
+import { NotFound } from "pages/404";
+import { Preloader } from "components/Preloader";
 import "./index.scss";
-import Preloader from "components/Preloader";
 
 const Home = lazy(() => import("./pages/Home"));
 

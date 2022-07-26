@@ -4,12 +4,12 @@ import metaData from "seo/metaData";
 import styles from "./home.module.scss";
 
 import { stylesheet as ss } from "./styles";
-import Resume from "./Resume";
+import { Resume } from "./Resume";
 
-function Home() {
+export const Home = () => {
 	useEffect(() => {
 		const navHeight = document.getElementById("nav")!.offsetHeight;
-		document.getElementById("home")!.style.height = (window.innerHeight - navHeight - 1)  + "px";
+		document.getElementById("home")!.style.height = window.innerHeight - navHeight - 1 + "px";
 	}, []);
 
 	return (
@@ -45,6 +45,4 @@ function Home() {
 			</div>
 		</div>
 	);
-}
-
-export default Home;
+};

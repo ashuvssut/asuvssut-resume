@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { FC, useState } from "react";
 import styles from "./header.module.scss";
 import akAvatar from "assets/header/ak.jfif";
 import { PictureAsPdf, Link } from "@mui/icons-material";
 import { Avatar, Box } from "@mui/material";
-import Tooltip from "components/Tooltip";
+import { Tooltip } from "components/Tooltip";
 
-function Header() {
+export const Header: FC = () => {
 	const [loading, setLoading] = useState(false);
 	const [opacity, setOpacity] = useState(0);
 
@@ -108,6 +108,4 @@ function Header() {
 			</Box>
 		</>
 	);
-}
-
-export default Header;
+};

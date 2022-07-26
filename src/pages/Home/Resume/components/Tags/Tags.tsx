@@ -18,5 +18,3 @@ export const Tags: FC<ITags> = ({tags}) => {
 		</div>
 	);
 }
-
-export default Tags;

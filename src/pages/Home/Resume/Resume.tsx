@@ -3,8 +3,8 @@ import { stylesheet as ss } from "./styles";
 import { StackOverflow, ExtLink, Twitter, LinkedIn, GitHub } from "assets/svg";
 import { Link1, Link2, IconLink } from "./components/Link";
 import { Li1, Li2, List, LiPara } from "./components/List";
-import Section from "./components/Section";
-import Tags from "./components/Tags";
+import { Section } from "./components/Section";
+import { Tags } from "./components/Tags";
 import { MixedTitle, H1, H2, SubTitle1, SubTitle2 } from "./components/Title";
 import { B, BI } from "./components/Emphasis";
 
@@ -274,7 +274,7 @@ export const Resume: FC<IResume> = () => {
 							</Link2>
 						</div>
 						<div style={ss.card}>
-							<MixedTitle h1="My Resume Website" h2="React, GitHub Actions, Puppeteer" />
+							<MixedTitle h1="My Resume Website" h2="React, TypeScript, GitHub Actions, Puppeteer" />
 							<SubTitle2>July 2021 | Burla, India</SubTitle2>
 							<Link1 href="https://ashuvssut.github.io/ashuvssut-resume" variant="small">
 								ashuvssut.github.io/ashuvssut-resume
@@ -319,5 +319,3 @@ export const Resume: FC<IResume> = () => {
 		</>
 	);
 };
-
-export default Resume;

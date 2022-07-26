@@ -5,7 +5,6 @@ import UseAnimations from "react-useanimations";
 import github from "react-useanimations/lib/github";
 import linkedin from "react-useanimations/lib/linkedin";
 
-
 interface IFooter {
 	fill: string;
 }
