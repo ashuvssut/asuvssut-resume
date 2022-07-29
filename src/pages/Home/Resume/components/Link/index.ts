@@ -1,1 +1,1 @@
-export { IconLink, Link1, Link2 } from "./Link";
+export { IconLink, Link, LinkBr } from "./Link";

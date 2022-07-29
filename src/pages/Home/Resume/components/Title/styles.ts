@@ -18,7 +18,7 @@ export const stylesheet: IStyleSheet = {
 		fontSizeAdjust: "0.5",
 		fontWeight: 500,
 		fontVariantCaps: "small-caps",
-		marginBottom: 3,
+		marginTop: 3,
 		textShadow: "0 0 1px rgba(0, 0, 0, 0.3)",
 	},
 	subtitle1: {

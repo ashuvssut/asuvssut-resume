@@ -16,7 +16,7 @@ interface IMixedTitle{
 }
 export const MixedTitle: FC<IMixedTitle> = ({ h1, h2 }) =>  {
 	return (
-		<div style={{ marginBottom: 3 }}>
+		<div style={{ marginBottom: 2,  }}>
 			<h3 style={{ ...ss.h1, marginBottom: 0, display: "inline" }}>{h1}</h3>
 			{" | "}
 			<h4 style={{ ...ss.h2, marginBottom: 0, display: "inline", whiteSpace: "nowrap" }}>{h2}</h4>
