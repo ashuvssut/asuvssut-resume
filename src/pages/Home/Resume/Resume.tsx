@@ -65,22 +65,26 @@ export const Resume: FC<IResume> = () => {
 						<SubTitle2>More Experienced in:</SubTitle2>
 						<Tags
 							tags={[
-								"React",
-								"Git",
+								"TypeScript",
 								"Javascript",
-								"C++",
+								"React",
+								"Redux Toolkit",
+								"React Native",
+								"Material UI",
+								"NEXT.js",
+								"Firebase"
+								"Git",
 								"SASS / CSS",
 								"HTML",
 								"GitHub Actions",
 								"Chrome Dev Tools",
-								"Redux",
-								"bash",
+								"bash", 
 							]}
 						></Tags>
 
 						<SubTitle2>Acquainted with:</SubTitle2>
 						<Tags
-							tags={["React Native", "NEXT.js", "Firebase", "GCP (Cloud)", "Node.js", "Express.js"]}
+							tags={["GCP (Cloud)", "Express.js", "GraphQL", "C++"]}
 						></Tags>
 						<div style={{ height: 5 }}></div>
 						<H1>Soft skills</H1>
