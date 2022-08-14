@@ -72,13 +72,13 @@ export const Resume: FC<IResume> = () => {
 								"React Native",
 								"Material UI",
 								"NEXT.js",
-								"Firebase"
+								"Firebase",
 								"Git",
 								"SASS / CSS",
 								"HTML",
 								"GitHub Actions",
 								"Chrome Dev Tools",
-								"bash", 
+								"bash"
 							]}
 						></Tags>
 
