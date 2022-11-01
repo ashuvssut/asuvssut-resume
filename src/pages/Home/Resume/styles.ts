@@ -4,10 +4,10 @@ export const stylesheet: IStyleSheet = {
 	header: {
 		textAlign: "center",
 		paddingTop: 20,
-		paddingBottom: 15,
+		paddingBottom: 10,
 	},
 	name: {
-		fontSize: "46px",
+		fontSize: "30px",
 		margin: "0",
 		fontWeight: 100,
 		color: colors.grey52,
@@ -26,12 +26,12 @@ export const stylesheet: IStyleSheet = {
 
 	main: {
 		display: "flex",
-		padding: 35,
+		padding: 30,
 		paddingTop: 8,
 	},
 	firstCol: {
-		minWidth: 312,
-		maxWidth: 312,
+		minWidth: 314,
+		maxWidth: 314,
 		paddingRight: 17,
 	},
 	card: {
