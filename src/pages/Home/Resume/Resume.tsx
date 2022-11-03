@@ -130,7 +130,10 @@ export const Resume: FC<IResume> = () => {
 							<SubTitle2>June 2020 - August 2020 | India</SubTitle2>
 							<List>
 								<Li1>
-									Developed Official<Link href="http://www.blessnbliss.org">BnB Website</Link>
+									Developed Official
+									<Link href="https://bless-n-bliss-nitr-chapter.github.io/Bless-n-Bliss">
+										BnB Website
+									</Link>
 									using<B>HTML, CSS, JavaScript</B>.
 								</Li1>
 								<Li1>
