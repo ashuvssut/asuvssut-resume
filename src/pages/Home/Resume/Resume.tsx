@@ -55,7 +55,7 @@ export const Resume: FC<IResume> = () => {
 						<SubTitle1 style={{ display: "inline" }}>Burla, Odisha, India</SubTitle1>
 						<H2>B.tech final year in Electronics and Comm. Engg | 2019-23</H2>
 						<List>
-							<Li1>CGPA : 8.36</Li1>
+							<Li1>CGPA : 8.16</Li1>
 						</List>
 					</Section>
 
@@ -131,9 +131,7 @@ export const Resume: FC<IResume> = () => {
 							<List>
 								<Li1>
 									Developed Official
-									<Link href="https://bless-n-bliss-nitr-chapter.github.io/Bless-n-Bliss">
-										BnB Website
-									</Link>
+									<Link href="http://blessnblissfoundation.org/">BnB Website</Link>
 									using<B>HTML, CSS, JavaScript</B>.
 								</Li1>
 								<Li1>
