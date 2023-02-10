@@ -93,7 +93,7 @@ export const Header: FC = () => {
 					<a
 						id="download"
 						className={styles.button}
-						href="https://github.com/ashuvssut/ashuvssut-resume/blob/download/Resume%20_%20Ashutosh%20Khanduala.pdf?raw=true"
+						href="https://github.com/ashuvssut/ashuvssut-resume/raw/download/Resume%20_%20Ashutosh%20Khanduala.pdf"
 					>
 						Download
 						<PictureAsPdf fontSize="small" />
