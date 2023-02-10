@@ -74,7 +74,7 @@ export const Resume: FC<IResume> = () => {
 								"Material UI",
 								"Version Control (Git)",
 								"Firebase",
-								"bash",
+								"tRPC",
 								"SASS / CSS & HTML",
 								"GitHub Actions",
 							]}
@@ -207,6 +207,32 @@ export const Resume: FC<IResume> = () => {
 						</div>
 						<div style={ss.card}>
 							<MixedTitle
+								h1="Women Safety App"
+								h2="Flutter, Android App, Firebase Authentication"
+							/>
+							<SubTitle2>December 2021 | Burla, India</SubTitle2>
+							<Link href="https://github.com/ashuvssut/women-safety-app" variant="small">
+								https://github.com/ashuvssut/women-safety-app
+							</Link>
+							<List>
+								<Li1>
+									An App that can
+									<B>send current location of the user</B>to her<BI>trusted list</BI>of contacts
+									when in danger with just one tap<B>via SMS.</B>
+								</Li1>
+								<Li1>
+									This project took part in<B>Google DSC WoW'22 Hackathon</B>
+								</Li1>
+							</List>
+							<LinkBr
+								prefix="App (alpha release)"
+								href="https://play.google.com/store/apps/details?id=com.ashuvssut.women_safety_app"
+							>
+								link here
+							</LinkBr>
+						</div>
+						<div style={ss.card}>
+							<MixedTitle
 								h1="Find a Donor"
 								h2="React Native, Expo, Android App, Express.js, Azure Maps"
 							/>
@@ -227,32 +253,6 @@ export const Resume: FC<IResume> = () => {
 							<LinkBr
 								prefix="App"
 								href="https://github.com/ashuvssut/FindADonor/blob/release/release/Find-a-donor-c2259e865b8a454d80d097449a89dde3-signed.apk?raw=true"
-							>
-								link here
-							</LinkBr>
-						</div>
-						<div style={ss.card}>
-							<MixedTitle
-								h1="Women Safety App"
-								h2="Flutter, Android App, Firebase Authentication"
-							/>
-							<SubTitle2>December 2021 | Burla, India</SubTitle2>
-							<Link href="https://github.com/ashuvssut/women-safety-app" variant="small">
-								https://github.com/ashuvssut/women-safety-app
-							</Link>
-							<List>
-								<Li1>
-									An App that can
-									<B>send current location of the user</B>to her<BI>trusted list</BI>of contacts
-									when in danger with just one tap<B>via SMS.</B>
-								</Li1>
-								<Li1>
-									This project took part in<B>Google DSC WoW'22 Hackathon</B>
-								</Li1>
-							</List>
-							<LinkBr
-								prefix="App (alpha release)"
-								href="https://github.com/ashuvssut/women-safety-app/releases/tag/v0.1-alpha"
 							>
 								link here
 							</LinkBr>
