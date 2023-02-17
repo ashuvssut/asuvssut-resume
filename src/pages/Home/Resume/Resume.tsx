@@ -80,7 +80,9 @@ export const Resume: FC<IResume> = () => {
 							]}
 						></Tags>
 						<SubTitle2>Acquainted with:</SubTitle2>
-						<Tags tags={["GCP (Cloud)", "Express.js", "GraphQL", "C++"]}></Tags>
+						<Tags
+							tags={["GCP (Cloud)", "Express.js", "GraphQL", "Flutter", "Python", "OpenCV", "C++"]}
+						></Tags>
 						{/* <div style={{ height: 5 }}></div> */}
 						{/* <H1>Soft skills</H1>
 						<List style={{ display: "flex", flexWrap: "wrap" }}>
@@ -225,7 +227,7 @@ export const Resume: FC<IResume> = () => {
 								</Li1>
 							</List>
 							<LinkBr
-								prefix="App (alpha release)"
+								prefix="App Play Store"
 								href="https://play.google.com/store/apps/details?id=com.ashuvssut.women_safety_app"
 							>
 								link here
@@ -249,9 +251,12 @@ export const Resume: FC<IResume> = () => {
 									Integrated<B>Azure Maps API</B>to create Maps that shows nearest Blood Donors and
 									Blood Banks.
 								</Li1>
+								<Li1>
+									This project took part in<B>Microsoft Imagine Cup'22.</B>
+								</Li1>
 							</List>
 							<LinkBr
-								prefix="App"
+								prefix="App download"
 								href="https://github.com/ashuvssut/FindADonor/blob/release/release/Find-a-donor-c2259e865b8a454d80d097449a89dde3-signed.apk?raw=true"
 							>
 								link here
@@ -259,27 +264,21 @@ export const Resume: FC<IResume> = () => {
 						</div>
 						<div style={ss.card}>
 							<MixedTitle
-								h1="My Resume Website"
-								h2="React, TypeScript, GitHub Actions, Puppeteer"
+								h1="Road Network Detection"
+								h2="Python, OpenCV, Image Processing, NetworkX"
 							/>
-							<SubTitle2>July 2021 | Burla, India</SubTitle2>
-							<Link href="https://ashuvssut.github.io/ashuvssut-resume" variant="small">
-								ashuvssut.github.io/ashuvssut-resume
+							<SubTitle2>Feb 2022 | Burla, India</SubTitle2>
+							<Link href="https://github.com/ashuvssut/road_network_detection" variant="small">
+								https://github.com/ashuvssut/road_network_detection
 							</Link>
 							<List>
-								<Li1>A website to view and download my Resume</Li1>
+								<Li1>A Tool that extracts the graph data from Google Maps road network.</Li1>
+								<Li1>Used OpenCV for Network Detection (Image Processing).</Li1>
 								<Li1>
-									<B nsp>
-										Developed a
-										<Link href="https://github.com/ashuvssut/generatePdf-GHA">Github Action</Link>
-									</B>
-									to<B>generate Resume PDF using puppeteer</B>from my Resume website and commit it
-									to the Repository updating the old PDF version.
+									Used NetworkX & some standard Image Processing algorithms for road network Graph
+									data Extraction.
 								</Li1>
 							</List>
-							<LinkBr prefix="GitHub" href="https://github.com/ashuvssut/ashuvssut-resume">
-								repo link here
-							</LinkBr>
 						</div>
 					</Section>
 					<Section title="Achievements">
@@ -287,7 +286,7 @@ export const Resume: FC<IResume> = () => {
 						<List>
 							<Li1>
 								<H2>GirlScript Summer of Code</H2>
-								Secured<B>Rank 14</B>and contributed in 3 projects.
+								Secured<B>Rank 14</B>and contributed in 3 projects.<B>Merged PRs:</B>
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3AGSSOC21"
 									icon={<ExtLink />}
@@ -300,7 +299,7 @@ export const Resume: FC<IResume> = () => {
 								<Link href="https://web.archive.org/web/20220414095904/https%3A%2F%2Fdevscript.org%2Fwoc%2Fleaderboard%2F">
 									Rank 3
 								</Link>
-								and contributed in 3 projects.
+								and contributed in 3 projects.<B>Merged PRs:</B>
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3ADWOC"
 									icon={<ExtLink />}
@@ -309,7 +308,7 @@ export const Resume: FC<IResume> = () => {
 							</Li1>
 							<Li1>
 								<H2>Script Winter of Code</H2>
-								Secured<B>Rank 6</B>and contributed in 3 projects.
+								Secured<B>Rank 6</B>and contributed in 3 projects.<B>Merged PRs:</B>
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3Aswoc2021"
 									icon={<ExtLink />}
@@ -318,7 +317,7 @@ export const Resume: FC<IResume> = () => {
 							</Li1>
 							<Li1>
 								<H2>Mexili Winter of Code</H2>
-								Secured<B>Rank 5</B>and contributed in 2 projects.
+								Secured<B>Rank 5</B>and contributed in 2 projects.<B>Merged PRs:</B>
 								<IconLink
 									href="https://github.com/pulls?q=is%3Amerged+is%3Apr+author%3Aashuvssut+label%3AMWOC"
 									icon={<ExtLink />}
