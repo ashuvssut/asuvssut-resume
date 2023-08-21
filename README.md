@@ -27,4 +27,4 @@ This template attempts to look clean, highlight details and be a single page.
 
 **The preview link given below is my Resume. It is NOT my actual resume.**
 
-Click [here](https://ashuvssut.github.io/ashuvssut-resume/) to Preview.
+Click [here](https://ashuvssut.github.io/resume-generator/) to Preview.
