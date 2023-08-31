@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume-generator/static/css/main.53e29131.css",
-    "main.js": "/resume-generator/static/js/main.50545c6c.js",
+    "main.js": "/resume-generator/static/js/main.db49e94c.js",
     "static/css/760.de90c6f7.chunk.css": "/resume-generator/static/css/760.de90c6f7.chunk.css",
     "static/js/760.9de01d67.chunk.js": "/resume-generator/static/js/760.9de01d67.chunk.js",
     "static/js/787.3ec2375e.chunk.js": "/resume-generator/static/js/787.3ec2375e.chunk.js",
@@ -13,13 +13,13 @@
     "static/media/ext-link.svg": "/resume-generator/static/media/ext-link.31d6f1273c22b6be5a833936a7a41235.svg",
     "static/media/stackoverflow.svg": "/resume-generator/static/media/stackoverflow.131af3606af901cd841c2d62cf8bc636.svg",
     "main.53e29131.css.map": "/resume-generator/static/css/main.53e29131.css.map",
-    "main.50545c6c.js.map": "/resume-generator/static/js/main.50545c6c.js.map",
+    "main.db49e94c.js.map": "/resume-generator/static/js/main.db49e94c.js.map",
     "760.de90c6f7.chunk.css.map": "/resume-generator/static/css/760.de90c6f7.chunk.css.map",
     "760.9de01d67.chunk.js.map": "/resume-generator/static/js/760.9de01d67.chunk.js.map",
     "787.3ec2375e.chunk.js.map": "/resume-generator/static/js/787.3ec2375e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53e29131.css",
-    "static/js/main.50545c6c.js"
+    "static/js/main.db49e94c.js"
   ]
 }
