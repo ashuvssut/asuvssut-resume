@@ -14,9 +14,9 @@ function App() {
 		<Suspense fallback={<Preloader />}>
 			{location.pathname !== "/404" && <Header />}
 			<Routes>
-				<Route path="/" element={<Navigate to="/ashuvssut-resume" replace />} />
+				<Route path="/" element={<Navigate to="/resume-generator" replace />} />
 				<Route path="/ashuvssut-resume" element={<Home />} />
-				<Route path="*" element={<Navigate to="/ashuvssut-resume/404" replace />} />
+				<Route path="*" element={<Navigate to="/resume-generator/404" replace />} />
 				<Route path="/ashuvssut-resume/404" element={<NotFound />} />
 			</Routes>
 			{/* {location.pathname !== "/404" && <Footer />} */}
