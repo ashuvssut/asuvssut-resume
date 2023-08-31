@@ -1,6 +1,6 @@
 {
-	"name": "ashuvssut-resume",
-	"homepage": "https://ashuvssut.github.io/ashuvssut-resume/",
+	"name": "resume-generator",
+	"homepage": "https://ashuvssut.github.io/resume-generator/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
