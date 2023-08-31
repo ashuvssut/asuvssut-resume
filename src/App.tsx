@@ -15,9 +15,9 @@ function App() {
 			{location.pathname !== "/404" && <Header />}
 			<Routes>
 				<Route path="/" element={<Navigate to="/resume-generator" replace />} />
-				<Route path="/ashuvssut-resume" element={<Home />} />
+				<Route path="/resume-generator" element={<Home />} />
 				<Route path="*" element={<Navigate to="/resume-generator/404" replace />} />
-				<Route path="/ashuvssut-resume/404" element={<NotFound />} />
+				<Route path="/resume-generator/404" element={<NotFound />} />
 			</Routes>
 			{/* {location.pathname !== "/404" && <Footer />} */}
 		</Suspense>
